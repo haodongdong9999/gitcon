@@ -1,0 +1,342 @@
+[dev_id]        [dev_name]      [if_id] [if_name]       [ssid]  [vlan_id]       [mac]   [ip]    [priority]      [upband_min]    [upband_max]        [downband_min]   [downband_max]  [cert_state]    [user_type]     [rx_pkt]       [tx_pkt]        [rx_4Gbyte]     [rx_byte]   [tx_4Gbyte]     [tx_byte]
+93               wtp93           9       ap0_1           sw-newkernel-test                               200     90:00:4E:4B:5F:A9       172.168.1.100       0       0       0       0       0       0       0       180             43              0               131711     0                12784 
+www.Omegle.com
+
+
+201 618 6213   订票号码
+
+
+nvramcli super set ap_work_mode=0              //AP胖到瘦
+Usage:
+  nvramcli show
+        --show all variables
+  nvramcli get "variable"
+        --show one variable,like name=value, if variable not found ,show nothing
+  nvramcli set "var"="value" ["var2"="val2"] ...
+        --set one or more variables value
+  nvramcli unset "variable" ["var2"] ...
+        --unset one or more variables
+  nvramcli commit
+        --save the config to flash
+~ # nvramcli superset ap_work_mode=0 
+~ # nvramcli commit
+~ # reboot
+
+
+
+
+
+
+http://synergy-project.org/download/free/     --键盘鼠标共享
+
+电子邮箱：lydaili618@163.com
+洛阳网.河洛苑
+
+洛阳日报投稿
+
+http://blog.csdn.net/zklth/article/details/8937905   --crt字体配置
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     tcp->check = 0;
+		 skb->csum = skb_checksum(skb, pstIpHdr->ihl*4, skb->len - pstIpHdr->ihl*4, 0);
+
+		 tcp->check = csum_tcpudp_magic(pstIpHdr->saddr,
+						pstIpHdr->daddr,
+						skb->len -  pstIpHdr->ihl*4,
+						pstIpHdr->protocol,
+						skb->csum);
+	    pstIpHdr->tot_len = htons(skb->len);
+	    pstIpHdr->check = 0;
+	    pstIpHdr->check = ip_fast_csum((unsigned char *)pstIpHdr, pstIpHdr->ihl);
+	    
+	    校验函数
+	   
+	   echo $ngx_feature_name | tr abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ
+                    
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+http://item.mi.com/1152300006.html    --小米台灯控制
+http://www.cnblogs.com/zmkeil/archive/2013/04/18/3029339.html   ---vlan流程
+http://www.freevpnmac.com/macvpn/?bsh_bid=272364094   ----免费vpn
+240017   ---基金代码  华宝  48%
+519670  ----银河行业 54%
+260104   ---景顺长城  http://www.invescogreatwall.com/
+240008   ---华宝收益
+630001   ---华商领先
+000697   ---汇添富移动互联网股票
+431239348   成人
+
+WIN7激活方法：Slmgr  –skms  10.1.1.249         Slmgr  -ato
+
+ue 注册： 用户名:亦弥兮
+					授权码:LHNP8-RFSLA-INNIQ-LKSKD-LHFH8-DEOL2-RGVM3-QSWG6
+					
+http://www.xitongzhijia.net/xtjc/20150108/34364.html   --win7 设置窗口颜色
+vi /etc/sysconfig/network-scripts/   --配置linux网口地址，路由
+service network restart 
+
+http://rcyj.12333sh.gov.cn/rcyj/   ---办理人才引进查询   66240918X
+
+http://detail.tmall.com/item.htm?spm=a230r.1.14.72.suAOeE&id=43005538699&ns=1&abbucket=15&skuId=84709814554      MAC内胆包
+
+
+yum groupinstall -y   "Desktop"   "Desktop Platform"   "Desktop Platform 
+Development"　 "Fonts" 　"General Purpose Desktop"　 "Graphical Administration Tools"　 "Graphics Creation Tools" 　"Input Methods" 　"X Window System" 　"Chinese Support [zh]"　"Internet Browser"
+ 
+----centos安装桌面
+
+
+mount | grep haodongdong | awk '{print $3}'| sudo xargs umount --解锁
+rm -rf ../develop/.devel/lock 
+
+
+http://tieba.baidu.com/p/2831348842         Mac电脑资源软件
+
+
+@东东 恩恩，是的，cr2032,3v
+想您所想，急您所急，关怀就在您的身边。
+用心倾听，真诚服务，解决您的后顾之忧。
+  
+  
+  ssh-keygen -t rsa -C "haodongdong@gbcom.com.cn"   ssh 生成器
+  cat ~/.ssh/id_rsa.pub 
+  
+http://blog.sina.com.cn/s/blog_6066420601010aek.html  --懂懂日记
+http://mysh.qq.com/t-302345-71.htm   --大申宝宝圈
+http://bbs.tianya.cn/post-329-509373-1.shtml  --懂懂日记
+
+http://user.qzone.qq.com/2361456/2   --懂懂
+
+http://user.qzone.qq.com/548823217/blog/1429284119  ---小莫
+http://user.qzone.qq.com/52728431/main   --浅浅
+
+http://bbs.zol.com.cn/padbbs/d142_152.html  --爱立顺刷机
+http://blog.chinaunix.net/uid-26611973-id-3479560.html   --vlan文档学习
+
+ cat /opt/vyatta/share/vyatta-cfg/templates/interfaces/ethernet/node.tag/address/node.def  --vyos 命令
+http://www.appstar.com.cn/  --手机APP制作
+http://blog.csdn.net/npy_lp/article/details/7090541    Net_priv理解
+http://item.taobao.com/item.htm?spm=a230r.1.14.75.agUS4H&id=19771925799&ns=1&_u=ngdrtc402e3&abbucket=18#detail  成人
+http://www.hpan.cn/lab/coop/index.aspx?pt=2&pid=5868&tid=121&puid=1&uid=1&bww=tb7181995&bqq=380109495  ----年年宝贝的杂志
+http://www.hpan.cn/lab/coop/index.aspx?pt=2&pid=5800&tid=102&puid=1&uid=1&bww=tb7181995&bqq=380109495   ---我的杂志制作
+http://item.taobao.com/item.htm?spm=a230r.1.14.107.oEAyqr&id=24505960617&ns=1&abbucket=18#detail ---杂志相册制作
+http://blog.csdn.net/cyd411/article/details/7335350  ---linux模块带参数的用法
+cat ~/.ssh/id_rsa.pub  ----ssh证书
+iptables -A FORWARD -p icmp -m limit --limit 1/s --limit-burst 10 -j ACCEPT
+
+http://newhouse.house365.com/jingdongzijing/hx_pic/picid-766331/   ---纪珂房子
+
+iptables –t nat –A PREROUTING -p tcp --dport 80 -j REDIRECT –to-posts 9000
+iptables -I PREROUTING -s x.x.x.x -j ACCEPT
+
+http://blog.csdn.net/majieyue/article/details/7827284  --网络驱动学习
+C:\Xiaomi\MiPhoneManager\Data   ---小米备份
+http://pan.baidu.com/s/1bn5xoT5#path=%252FWindows10  --win10系统盘
+/**********************************************************************************
+http://msdn.itellyou.cn/   ----windos资源大全
+http://www.iplaysoft.com/winsetupfromusb.html  --制作超级克隆盘
+：haodongdong9999.vicp.cc  ( 已启用花生壳 )
+name:haodongdong9999
+key:haodongdong1222
+***********************************************************************************/
+
+http://www.openwrt.org.cn/bbs/forum.php?mod=viewthread&tid=2966   ---openwrt
+http://bbs.xiaomi.cn/thread-9097809-1-1.html  --openwrt刷机教程
+http://item.taobao.com/item.htm?spm=a230r.1.14.95.dbrOvB&id=35535402444&ns=1&abbucket=18#detail  ---女风衣
+/******************************************************编译机拨号vpn****************************************
+pptpsetup --create vpn --server 10.1.1.85 --username haodongdong --password www8gbcom9COM~CN! --encrypt --start 
+(pppd call vpn nodetach  refuse-eap &) 
+**************************************************************************************************************/
+
+http://lvguang.clsqa.com/   ---草榴    fuck_11 123456a
+http://detail.tmall.com/item.htm?spm=a230r.1.14.1.LZ5e6I&id=14353713912&abbucket=18   ---淘宝冲洗照片
+http://www.miui.com/thread-714796-1-1.html  --DIY 全息投影
+
+http://www.nmn4k.cn/ ---极米电影资源
+http://bbs.xgimi.com/thread-31280-1-1.html   极米
+ F8:A4:5F:17:5C:D1   小米手机
+http://blog.csdn.net/wdjhzw/article/details/35817945  --ubutu install
+http://mirrors.ustc.edu.cn/ubuntu-releases/14.04/     ---ubutu下载
+链表学习：http://blog.csdn.net/feixiaoxing/article/details/6848077
+http://www.cnblogs.com/peida/archive/2012/12/11/2812294.html ---每天一个linux命令
+http://www.wooyun.org/  ---漏洞
+
+http://msdn.itellyou.cn/  ----windows镜像下载
+http://www.iplaysoft.com/winsetupfromusb.html ---下载u盘制作工具
+http://www.w3school.com.cn/html/  ---学习html
+http://www.kerneltravel.net/  ---linux内核之旅
+http://blog.chinaunix.net/uid-21768364-id-3658560.html ---linux 中断编程学习
+http://blog.chinaunix.net/uid-21768364-id-186057.html ---代码性能分析
+http://detail.tmall.com/item.htm?id=13708921279&spm=a1z0k.7385961.1997985097.d4918997.BvYQUD&_u=koacase5149&mt=    永久自行车
+61.183.42.94 dynamic.12306.cn    C:\WINDOWS\system32\drivers\etc  hosts
+http://item.jd.com/1230217.html  ---美的取暖器
+http://blog.sina.com.cn/s/blog_4ade545e0100durv.html --世界禁片介绍
+http://www.bttiantang.com/category.php?/%E5%86%92%E9%99%A9   ---各种电影种子
+http://blog.csdn.net/chenqiang35/article/details/3909699   ---各种排序算法
+
+https://digitalcollections.anu.edu.au/handle/1885/40745  ---免费下载外国文章
+http://abbott.tmall.com/?spm=a220o.1000855.w5001-3245153482.2.sMOlvq&scene=taobao_shop ----雅培
+http://item.taobao.com/item.htm?spm=a230r.1.14.1.307tot&id=16441849556&ns=1#detail   ---生化汤配方
+http://friso.tmall.com/p/rd375844.htm?spm=a1z10.1.w5003-7457702560.2.HhUUA3&scene=taobao_shop  --美素奶粉
+
+http://blog.csdn.net/pfgmylove/article/details/3207236  ---C内存探讨
+
+犹忆前年相聚，共努力，同加班，一腔热血洒寰创
+而今分别在即，想往事，叹时光，本周把话别吴泾
+
+火车票订票网站挤不进的孩子看过来：进入C:\WINDOWS\system32\drivers\etc\hosts，添加"122.228.243.22 dynamic.12306.cn"或"61.183.42.94 dynamic.12306.cn"，
+重启浏览器，即可实现流畅进入 
+
+http://www.meibowang.com/bbs/forum.php?mod=viewthread&tid=387&highlight=   -站街
+http://bbs.we7.cc/forum-38-1.html  ---微擎
+http://blog.sina.com.cn/s/blog_6a01f9750101258e.html --成人话题
+
+生活早参考
+http://detail.tmall.com/item.htm?id=39389029848   ---耳机
+
+米折网首页   ----买东西便宜的选择
+
+weclome123    --网络人
+http://www.rosoo.net/a/201007/9814.html  --链表学习
+Win7下绑定IP和MAC地址操作和XP有所差别，Win7用户这时候就需要用netsh命令了。具体操作如下：
+　　1、CMD中输入：netsh i i show in
+　　然后找到“本地连接”对应的 “Idx” (我的是“22”,下面neighbors后面的数字跟这里一致。)
+　　2、下面在CMD输入：netsh -c "i i" add neighbors 22 “网关IP” “Mac地址“，这里22是idx号。注册前面"i i"的双引号是英文状输入，后面网关和MAC地址是不用双引号的。
+同理，在Win7上用arp -d并不能完全的删除绑定，必须使用netsh -c "i i" delete neighbors IDX(IDX改为相应的数字)才可删除MAC地址绑定。
+　　总结：
+　　1、使用 arp -a 命令 查看网关的MAC网卡物理地址
+　　2、使用 netsh i i show in 命令 查看 本地连接的idx编号
+　　3、使用 netsh -c "i i" add neighbors 本地连接的idx “网关IP” “网关mac” 命令绑定
+　　4、使用 arp -a 查看结果
+
+15601672898  --wujing
+15001905718 --wujing2
+http://www.rosoo.net/a/201007/9814.html   ----链表学习
+http://detail.tmall.com/item.htm?_u=hn8cb55b8bb&id=21274279150   ---阿胶枣
+http://car.autohome.com.cn/price/series-875.html  ---各种汽车
+
+http://www.ysx8.net/down/d_12677.html    ---刑警803下载地址
+
+http://www.softether.cn/jiaocheng/v4.html  ---windows下VPN
+
+把U盘格式化为NTFS格式。  FAT32的都不能放4G+的文件。右键格式化里如果没有NTFS，就在开始 运行里输入cmd 然后输入  convert x:/fs:ntfs       
+ 格式化    X代表你的U盘（可能是I,G,H啥的。看你自己的情况）
+
+
+EC:55：F9：02：26：93
+http://www.linuxfromscratch.org/blfs/view/cvs/postlfs/openssh.html
+
+D:\My Documents\Source Insight\Projects
+http://blog.csdn.net/ajigegege/article/details/19984039   --学习tcp的nat
+rpm -U --force --nodeps zlib-devel-1.1.4-4.i386.rpm    安装rpm包
+
+http://download.chinaunix.net/download/0001000/11.shtml --openssl下载
+ftp://ftp.jaist.ac.jp/pub/OpenBSD/OpenSSH/portable/    --openssh下载
+
+http://bbs.chinaunix.net/forum.php?mod=viewthread&tid=3774129&page=1#pid22307215    ---下载内核精髓
+http://netsecurity.51cto.com/art/200903/114969_8.htm ---ddos攻击
+
+薮 
+yum --disablerepo=* --enablerepo=centos-dvd install lspci    ---安装命令
+
+http://sh.58.com/jianshen/15826419699337x.shtml   ---吴泾散打
+
+ 3C:A9:F4:07:03:90 
+ 
+http://blog.chinaunix.net/uid-26675482-id-3995078.html    --网桥学习
+http://club.jd.com/review/960758-1-1.html  --水星路由器                                                       
+                                                                                                               
+fw_msg_portal_handle
+
+http://www.ipv6home.cn/html/bbs.html   ----学习ipv6
+http://hao.resgain.net/name_list.html  ---起名字
+http://www.tianya.cn/85079  --天涯
+
+http://baby.sina.com.cn/yindaochuxue/   ---孕期知识
+
+http://gb.cri.cn/42071/2014/02/13/782s4421573_9.htm   --上海最高的地方
+
+小米手机MAC： f8:a4:5f:17:5c:d1
+
+http://mysh.qq.com/forum.php?mod=viewthread&tid=145389&page=14#pid1060690  ---56平米房屋装修
+
+tcpdump -i br1 host 172.168.208.8 -s /usr/local/ac/br1.pcap -v
+tcpdump -i br1 host 172.168.208.8 -s /usr/local/ac/br1.pcap -v
+
+http://blog.sina.com.cn/u/2728230022 ---艳艳
+ 00:34:CB:C0:51:BD  ---AP
+ 381562084
+http://db.auto.sohu.com/photo/epic1109_2464306.shtml  ---电车女优
+http://tieba.baidu.com/p/857686716 --- 电锯惊魂剧情
+ 
+dev_queue_xmit 发送函数
+http://shaojiashuai123456.iteye.com/blog/842236  --发送函数原理
+http://hi.baidu.com/kwokwing0011/item/0368d00eb17739e8f55ba618
+
+
+ISO C90 forbids mixed declarations and code 警告
+    变量定义之前任何一条非变量定义的语句(注意：语句是会带分号的)都会引起这个警告！
+    将非变量的定义移到变量定义之后 即可
+ 
+  ./portalctl printon 6
+   
+  th->check = csum_ipv6_magic(&ipv6h->saddr, &ipv6h->daddr, th->doff<<2, IPPROTO_TCP,
+                        csum_partial((char *)th, th->doff<<2,
+                             skb->csum));    
+                               
+arp老化时间修改：/proc/sys/net/ipv4/neigh/eth0/base_reachable_time
+/proc/sys/net/ipv4/netfilter
+
+周翔 15221472057
+
+arp -s 192.168.1.200 00:34:cb:60:61:ad
+90:00:4e:4b:5f:a9   ---HP电脑MAC
+
+D:\My Documents\Source Insight\Projects\linux-kernel-3.0.88
+
+/home/haodongdong/ac-5.0/trunck/kernel-3.0/kernel
+d352   d5
+
+http://bbs.360.cn/4041797/252533701.html ------dos命令大全
+
+./l2wctl adduser 93 9 90:00:4E:4B:5F:A9 1 0  sw-newkernel-test
+
+
+cd /usr/local/ac/bin \r
+./l2wctl showalluser \r
+./l2wctl getallusernum \r
+./l2wctl  getfragpacket \r
+
+ http://blog.csdn.net/evenness/article/details/7528613  ---e1000e代码详解
+ 
+ ./l2wctl setuserip  74:2F:68:19:D0:7A 6 2001:0001:0000:0000:0000:0000:0000:0011
+ 
+ ./l2wctl setuserip  74:2F:68:19:D0:7A 4 172.168.1.100
+
+make KSRC=/share/haodongdong/ac-xa01-2.5.X.X/04-kernel/linux-2.6.18.8.ac KOBJ=/share/haodongdong/ac-xa01-2.5.X.X/04-kernel/linux-2.6.18.8.ac EXTRA_CFLAGS=-DCONFIG_E1000_DISABLE_PACKET_SPLIT
+
+
+make KSRC=/acshell/kernel-3.0/kernel/hao/linux-3.0.88-gbcom KOBJ=/acshell/kernel-3.0/kernel/hao/linux-3.0.88-gbcom EXTRA_CFLAGS=-DCONFIG_E1000_DISABLE_PACKET_SPLIT
+
+make KSRC=/home/haodongdong/gateway/gateway/kernel/linux-2.6.39.4 KOBJ=/home/haodongdong/gateway/gateway/kernel/linux-2.6.39.4 EXTRA_CFLAGS=-DCONFIG_E1000_DISABLE_PACKET_SPLIT
+
+EXTRA_CFLAGS=-DCONFIG_IXGBE_DISABLE_PACKET_SPLIT
+
+inet6_hash_frag  ---------ipv6地址哈希
+
+ brctl delif br0 eth1
+ brctl addif br1 eth1
+ ip a add 2001:1::12/64 dev br1
+ 
+NEXTHDR_FRAGMENT ----ipv6分片
+
+====================Flow6[1170 0] d0f29d80====================
+KEY: SrcIp 2001:0001:0000:0000:0000:0000:0000:0011 DstIp 2001:0001:0000:0000:0000:0000:0000:0200 IpProto 0 Tos 0x0 SrcPort 0 DstPort 0 InIf 14 Age 0 Ref 1 Shared (NULL)
+CoreMask: 0             Flags: COMPLETE                 Forward: L2 
+L2: InDev(vdev_0) OutDev(eth0) DMac f4:6d:04:c0:99:a6 SMac 74:2f:68:19:d0:7a InVlan 0 OutVlan 0
+
+
+是啊
+环境好
+地址普陀区，靠近双山路，新村路501号万家隆白领公寓 地铁7号线新村路下一号出口斜对面就是
+电话18818259519 ，出发前 先给我打个电话--风衣
+

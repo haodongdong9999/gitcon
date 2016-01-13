@@ -1,0 +1,28 @@
+学习vim
+
+list     :WMtoggle
+
+搜索函数   ctrl + |  + ?
+去       ctrl + i
+回        ctrl + o
+
+配置安装插件：  vi ～/.vimrc 中  配置 plugin 即可
+
+安装了  cscope  ctags   
+
+autotags 
+
+命令
+http://www.vim.org/download.php
+
+cs find s .*xxxxx.*   快读查找函数
+
+v%
+v i }
+v i p  段落对齐
+v a }
+c i w  重新修改一个变量
+.  重复上次修改
+b 一个变量的前面
+e 一个变量的后面
+* 标重一个变量
