@@ -339,4 +339,24 @@ L2: InDev(vdev_0) OutDev(eth0) DMac f4:6d:04:c0:99:a6 SMac 74:2f:68:19:d0:7a InV
 环境好
 地址普陀区，靠近双山路，新村路501号万家隆白领公寓 地铁7号线新村路下一号出口斜对面就是
 电话18818259519 ，出发前 先给我打个电话--风衣
+事情经过是这样的：换了台linux机器，想部署自己的开发环境。那vimrc必须配置上。结果原来机器明明好使的vundle插件，现在居然不好使了。报了各种错误，以为是插件中有个各种路径是原来的机器路劲，那就重新安装吧。
+明明从https://github.com/VundleVim/Vundle.vim
+下载了最新版，并且复制了人家git上的配置，但是就是各种报错。
+现在大概总结一下常见的几种错误；vim这个东西不仅仅是记住几个快捷键就ok了，一些内部的配置什么还需要深入看下呐....
 
+E492: Not an editor command: ^M
+你肯定复制人家配置了！而且从windows上传的！dos2unix咯....
+各种命令找不到，无法识别bundle等命令
+set rtp+=路径
+这个确认是否设置对了，vundle安装是可以随意的。所以一定要检查一下。另外，如果是windows下安装，就不要用什么'~'；这个玩意你不支持啦！！能用全路径就全路径咯。
+另外，进入vim；输入:echo &rtp;你看看那些路径，有你的不；
+解释一下：rtp就是RuntimePath，vim的运行时路径，插件、脚本搜索就是检查的这个咯！
+E117: Unknown function: vundle#begin
+三种情况：
+一种是你如上的路径你配错了！！
+另外一种：你vundle版本和对应的配置搞错了。vundle新版和旧版还是差的比较多的。旧版：vundle#rc()、Bundle；新版：vundle#begin()、Plugin；
+旧版：https://github.com/gmarik/vundle.git
+新版：https://github.com/VundleVim/Vundle.vim
+最后一种是：你机器上存在不同版本的vundle；有的打包好的vim会已经默认安装了旧版的vundle，所以不管你怎么弄一直都是错。
+:echo globpath(&rtp, 'autoload/vundle.vim')
+在vim中执行这个看看，如果能看到多个路径，那就是旧版的咯，删除就好了。
